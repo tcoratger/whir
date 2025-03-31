@@ -341,7 +341,7 @@ where
         field_size_bits as f64 - (list_size + 1.)
     }
 
-    pub const fn folding_pow_bits(
+    pub fn folding_pow_bits(
         security_level: usize,
         soundness_type: SoundnessType,
         field_size_bits: usize,
